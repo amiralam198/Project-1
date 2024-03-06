@@ -10,15 +10,17 @@
 </head>
 <body>
     <div id="commentBox">
-        <input type="text">
+        <input type="text" id="commBox">
+        <button onclick="postComment()">Post</button>
     </div>
     <div id="login">
         <label for="username">Username</label>
         <input type="text" id="username">
         <label for="password">Password</label>
-        <input type="text" name="" id="password">
-        <button id="logInBtn">Login</button>
+        <input type="text" id="password">
+        <button onclick="lgnBtn()">Login</button>
     </div>
+    <div id="commentsList"></div>
     <script src="./Index.js"></script>
 </body>
 </html>
